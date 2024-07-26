@@ -9,9 +9,6 @@
 - [] It should be possible to delete a meal
 - [] It should be possible to list all of a user's meals
 - [] It should be possible to visualize a single meal
-- [] 
-- [] 
-- [] 
 
 # RN
 - [] It must be possible to identify the user between requests

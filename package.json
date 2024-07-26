@@ -1,15 +1,27 @@
 {
   "name": "api-rest-daily-diet",
   "version": "1.0.0",
-  "description": "",
+  "description": "Daily Diet is a backend application for diet management. In it, the user can log meals and track their progress.",
   "main": "index.js",
   "scripts": {
+    "dev": " tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "@eslint/js": "^9.7.0",
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^20.14.12",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^7.17.0"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
   }
 }
